@@ -7,7 +7,7 @@ const {test, registerUser, loginUser, getProfile, users}  = require("../controll
 // middleware 
 router.use( cors({
     credentials: true,
-    origin:"http://localhost:8080"
+    origin:"https://planera.co.za/"
 }))
 
 router.get('/', test)
